@@ -1,0 +1,284 @@
+*{
+    font-family: Tahoma;
+}
+
+#header img{
+  width: 90px;
+  height: 90px;
+  margin: 10px -120px 0px 50px;
+}
+
+#header{
+    background-color: cornflowerblue;
+    display: flex;
+    width: auto;
+    height: 100px;
+    justify-content: left;
+}
+
+#header a{
+	display: block;
+	margin: auto;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-image: url(img/background\ baru.jfif);
+	background-attachment: fixed;
+	background-size: 100%;
+	}
+
+.navbar{
+	background: #212121;
+	margin: 0;
+	padding: 10px 20px;
+}
+ 
+.logo{
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+ 
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ 
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+ 
+.menu li a{
+	padding:10px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.biodata{
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.konten{
+	background-color: white;
+	width: 700px;
+	height: 620px;
+	display: block;
+	margin: auto;
+	border-radius: 6px;
+	background: white;
+	box-shadow:  8px 8px 27px #a8a8a8,-8px -8px 22px #ffffff;
+}
+
+main img{
+	width: 170px;
+	margin-left: 60px;
+	margin-right: 0px;
+}
+
+main p{
+	font-family: 'Times New Roman', Times, serif;
+	padding: 0px 20px;
+	text-indent: 30px;
+}
+
+.kiri{
+	float: left;
+	padding: 10px 0px;
+}
+
+.kanan{
+	width: 400px ;
+	float: left;
+	padding: 0 10px;
+	text-align: left;
+	padding-left: 0px	;
+}
+
+.tentangsaya{
+	float: left;
+	width: 100%;
+	text-align: justify;
+}
+
+.table-pendidikan{
+	float: left;
+	margin-left: 0px;
+}
+
+.list-pendidikan  span{
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.list-pendidikan li{
+	font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+}
+
+#konten-artikel{
+	background-color: rgb(255, 255, 255);
+	width: 700px;
+}
+
+.judul{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-judul{
+	text-indent: 50px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-judul-biodata{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.super-sub-judul{
+	text-indent: 70px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+.paragraft{
+	font-family: 'Times New Roman', Times, serif;
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 40px;
+	text-align: justify;
+	width: 600px;
+	line-height: 35px;
+}
+
+.sub-paragraft{
+	font-family: 'Times New Roman', Times, serif;
+	display: inline-block;
+	margin-left: 60px;
+	text-align: justify;
+	width: 580px;
+	line-height: 35px;
+	margin-top: 0px;
+}
+
+.gambar{
+	position: relative;
+	width: 220px;
+	left: 90px;	
+}
+
+.judul-gambar{
+	position: relative;
+	left: 70px;
+	top: -14px;
+	font-weight: bold;
+	font-size: 15px;
+	width: 300px;
+	text-align: center;
+}
+
+.list-item{
+	margin-top: -10px;
+}
+
+.list-item li{
+	font-family: 'Times New Roman', Times, serif;
+	margin-left: 80px;
+	line-height: 30px;
+}
+
+	.navbar {
+		background-color: #333;
+		position: sticky;
+		top: 0px;
+		z-index: 999;
+		width: 97%;
+	}
+
+	.navbar ul {
+		list-style-type: none;
+		margin: -10px;
+		padding: 0;
+    background: #333;
+	}
+
+	.navbar li {
+		display: inline-block;
+	}
+
+	.navbar li a {
+		color: white;
+		display: block;
+		padding: 10px 20px;
+		text-decoration: none;
+	}
+
+	/* Style the dropdown menu */
+	.navbar ul ul {
+		position: absolute;
+		top: 100%;
+		display: none;
+	}
+
+	.navbar ul ul li {
+		display: block;
+	}
+
+	.navbar li:hover ul {
+		display: block;
+	}
+
+	/* Change the background color of dropdown links on hover */
+	.navbar ul ul li a:hover {
+		background-color: #555;
+}
+
+table {
+	margin-left: 80px;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.table-p8 th {
+    background-color: #f2f2f2;
+}
+
+.table-p9 th{
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+.table-p9 td{
+	text-align: center;
+}
